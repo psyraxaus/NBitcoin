@@ -27,6 +27,7 @@ namespace NBitcoin.Altcoins
 		public static Bitcore Bitcore { get; } = Bitcore.Instance;
 		public static Groestlcoin Groestlcoin { get; } = Groestlcoin.Instance;
 		public static Zclassic Zclassic { get; } = Zclassic.Instance;
+		public static Horizen Horizen { get; } = Horizen.Instance;
 		public static Colossus Colossus { get; } = Colossus.Instance;
 		public static GoByte GoByte { get; } = GoByte.Instance;
 		public static Liquid Liquid { get; } = Liquid.Instance;
@@ -64,6 +65,7 @@ namespace NBitcoin.Altcoins
 			yield return Ufo;
 			yield return Groestlcoin;
 			yield return Zclassic;
+			yield return Horizen;
 			yield return Colossus;
 			yield return GoByte;
 			yield return Stratis;
