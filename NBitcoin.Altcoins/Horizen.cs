@@ -190,7 +190,7 @@ namespace NBitcoin.Altcoins
                 RuleChangeActivationThreshold = 108,
                 MinerConfirmationWindow = 144,
                 CoinbaseMaturity = 100,
-                ConsensusFactory = ZclassicConsensusFactory.Instance,
+                ConsensusFactory = HorizenConsensusFactory.Instance,
                 SupportSegwit = false
             })
             .SetBase58Bytes(Base58Type.PUBKEY_ADDRESS, new byte[] { 0x19, 0x57 })
